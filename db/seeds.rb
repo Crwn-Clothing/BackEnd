@@ -17,11 +17,11 @@ Review.destroy_all
 SHOP_DATA = [
   {
     id: 1,
-    title: "Hats",
     routeName: "hats",
     items: [
       {
         id: 1,
+        title: "hats",
         name: "Brown Brim",
         imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
         gender: "female",
@@ -29,6 +29,7 @@ SHOP_DATA = [
       },
       {
         id: 2,
+        title: "hats",
         name: "Blue Beanie",
         imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
         gender: "female",
@@ -36,6 +37,7 @@ SHOP_DATA = [
       },
       {
         id: 3,
+        title: "hats",
         name: "Brown Cowboy",
         imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
         gender: "female",
@@ -43,6 +45,7 @@ SHOP_DATA = [
       },
       {
         id: 4,
+        title: "hats",
         name: "Grey Brim",
         imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
         gender: "male",
@@ -50,6 +53,7 @@ SHOP_DATA = [
       },
       {
         id: 5,
+        title: "hats",
         name: "Green Beanie",
         imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
         gender: "female",
@@ -57,6 +61,7 @@ SHOP_DATA = [
       },
       {
         id: 6,
+        title: "hats",
         name: "Palm Tree Cap",
         imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
         gender: "male",
@@ -64,6 +69,7 @@ SHOP_DATA = [
       },
       {
         id: 7,
+        title: "hats",
         name: "Red Beanie",
         imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
         gender: "male",
@@ -71,6 +77,7 @@ SHOP_DATA = [
       },
       {
         id: 8,
+        title: "hats",
         name: "Wolf Cap",
         imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
         gender: "female",
@@ -78,6 +85,7 @@ SHOP_DATA = [
       },
       {
         id: 9,
+        title: "hats",
         name: "Blue Snapback",
         imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
         gender: "male",
@@ -87,11 +95,11 @@ SHOP_DATA = [
   },
   {
     id: 2,
-    title: "Sneakers",
     routeName: "sneakers",
     items: [
       {
         id: 1,
+        title: "sneakers",
         name: "Adidas NMD",
         imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
         gender: "male",
@@ -99,6 +107,7 @@ SHOP_DATA = [
       },
       {
         id: 2,
+        title: "sneakers",
         name: "Adidas Yeezy",
         imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
         gender: "female",
@@ -106,6 +115,7 @@ SHOP_DATA = [
       },
       {
         id: 3,
+        title: "sneakers",
         name: "Black Converse",
         imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
         gender: "male",
@@ -113,6 +123,7 @@ SHOP_DATA = [
       },
       {
         id: 4,
+        title: "sneakers",
         name: "Nike White AirForce",
         imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
         gender: "female",
@@ -120,6 +131,7 @@ SHOP_DATA = [
       },
       {
         id: 5,
+        title: "sneakers",
         name: "Nike Red High Tops",
         imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
         gender: "male",
@@ -127,6 +139,7 @@ SHOP_DATA = [
       },
       {
         id: 6,
+        title: "sneakers",
         name: "Nike Brown High Tops",
         imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
         gender: "male",
@@ -134,6 +147,7 @@ SHOP_DATA = [
       },
       {
         id: 7,
+        title: "sneakers",
         name: "Air Jordan Limited",
         imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
         gender: "male",
@@ -141,6 +155,7 @@ SHOP_DATA = [
       },
       {
         id: 8,
+        title: "sneakers",
         name: "Timberlands",
         imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
         gender: "male",
@@ -148,6 +163,7 @@ SHOP_DATA = [
       },
       {
         id: 9,
+        title: "sneakers",
         name: "OU Chelsea Boots",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/48574123_021_b?$xlarge$&hei=900&qlt=80&fit=constrain",
         gender: "male",
@@ -155,6 +171,7 @@ SHOP_DATA = [
       },
       {
         id: 10,
+        title: "sneakers",
         name: "JONAS LACED ANKLE BOOTS IN PATENT LEATHER",
         imageUrl: "https://www.ysl.com/11/11803522UM_14_a_v4.jpg?impolicy=ysl&imwidth=677&imdensity=1",
         gender: "female",
@@ -165,11 +182,11 @@ SHOP_DATA = [
   },
   {
     id: 3,
-    title: "Jackets",
     routeName: "jackets",
     items: [
       {
         id: 1,
+        title: "jackets",
         name: "Black Jean Shearling",
         imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
         gender: "male",
@@ -177,6 +194,7 @@ SHOP_DATA = [
       },
       {
         id: 2,
+        title: "jackets",
         name: "Blue Jean Jacket",
         imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
         gender: "male",
@@ -184,6 +202,7 @@ SHOP_DATA = [
       },
       {
         id: 3,
+        title: "jackets",
         name: "Grey Jean Jacket",
         imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
         gender: "female",
@@ -191,6 +210,7 @@ SHOP_DATA = [
       },
       {
         id: 4,
+        title: "jackets",
         name: "Brown Shearling",
         imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
         gender: "male",
@@ -198,6 +218,7 @@ SHOP_DATA = [
       },
       {
         id: 5,
+        title: "jackets",
         name: "Tan Trench",
         imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
         gender: "female",
@@ -205,6 +226,7 @@ SHOP_DATA = [
       },
       {
         id: 6,
+        title: "jackets",
         name: "UO Silk Liner Jacket",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/54992375_095_d?$xlarge$&hei=900&qlt=80&fit=constrain",
         gender: "female",
@@ -212,13 +234,15 @@ SHOP_DATA = [
       },
       {
         id: 7,
+        title: "jackets",
         name: "UO Quilted Crop Liner Jacket",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/72496698_040_b?$xlarge$&hei=900&qlt=80&fit=constrain",
-        gender: "",
+        gender: "female",
         price: 130,
       },
       {
         id: 8,
+        title: "jackets",
         name: "Pendleton Basket Maker Wool Button Jacket",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/51468213_022_e?$xlarge$&hei=900&qlt=80&fit=constrain",
         gender: "male",
@@ -226,6 +250,7 @@ SHOP_DATA = [
       },
       {
         id: 9,
+        title: "jackets",
         name: "Fried Rice Long Plaid Coat",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/52532942_071_b?$xlarge$&hei=900&qlt=80&fit=constrain",
         gender: "male",
@@ -233,6 +258,7 @@ SHOP_DATA = [
       },
       {
         id: 10,
+        title: "jackets",
         name: "Alpha Industries B-15 Flat Hem Slim-Fit Bomber Jacket",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/46256814_001_b?$xlarge$&hei=900&qlt=80&fit=constrain",
         gender: "men",
@@ -242,134 +268,172 @@ SHOP_DATA = [
   },
   {
     id: 4,
-    title: "Womens",
     routeName: "womens",
     items: [
       {
         id: 1,
+        title: "womens",
         name: "Blue Tanktop",
         imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+        gender: "female",
         price: 25,
       },
       {
         id: 2,
+        title: "womens",
         name: "Floral Blouse",
         imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+        gender: "female",
         price: 20,
       },
       {
         id: 3,
+        title: "womens",
         name: "Floral Dress",
         imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+        gender: "female",
         price: 80,
       },
       {
         id: 4,
+        title: "womens",
         name: "Red Dots Dress",
         imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+        gender: "female",
         price: 80,
       },
       {
         id: 5,
+        title: "womens",
         name: "Striped Sweater",
         imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+        gender: "female",
         price: 45,
       },
       {
         id: 6,
+        title: "womens",
         name: "Yellow Track Suit",
         imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+        gender: "female",
         price: 135,
       },
       {
         id: 7,
+        title: "womens",
         name: "White Blouse",
         imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
+        gender: "female",
         price: 20,
       },
       {
         id: 8,
+        title: "womens",
         name: "UO Cara High-Waisted Kick Flare Pant",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/53045738_079_b?$xlarge$&hei=900&qlt=80&fit=constrain",
+        gender: "female",
         price: 40,
       },
       {
         id: 9,
+        title: "womens",
         name: "Sublime Sun Oversized Crew Neck Sweatshirt",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/54280284_004_b?$xlarge$&hei=900&qlt=80&fit=constrain",
+        gender: "female",
         price: 69,
       },
       {
         id: 10,
+        title: "womens",
         name: "Nike Swoosh Hoodie",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/49807845_066_b?$xlarge$&hei=900&qlt=80&fit=constrain",
+        gender: "female",
         price: 80,
       },
     ],
   },
   {
     id: 5,
-    title: "Mens",
     routeName: "mens",
     items: [
       {
         id: 1,
+        title: "mens",
         name: "Camo Down Vest",
         imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        gender: "male",
         price: 325,
       },
       {
         id: 2,
+        title: "mens",
         name: "Floral T-shirt",
         imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        gender: "male",
         price: 30,
       },
       {
         id: 3,
+        title: "mens",
         name: "Black & White Longsleeve",
         imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        gender: "male",
         price: 45,
       },
       {
         id: 4,
+        title: "mens",
         name: "Pink T-shirt",
         imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        gender: "male",
         price: 25,
       },
       {
         id: 5,
+        title: "mens",
         name: "Jean Long Sleeve",
         imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        gender: "male",
         price: 40,
       },
       {
         id: 6,
+        title: "mens",
         name: "Burgundy T-shirt",
         imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        gender: "male",
         price: 25,
       },
       {
         id: 7,
+        title: "mens",
         name: "Burgundy T-shirt",
         imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        gender: "male",
         price: 25,
       },
       {
         id: 8,
+        title: "mens",
         name: "Burgundy T-shirt",
         imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        gender: "male",
         price: 25,
       },
       {
         id: 9,
+        title: "mens",
         name: "Brookyln Suppy Hoodie",
         imageUrl: "https://img.shopstyle-cdn.com/sim/54/98/54989b5c78c04d1fabf75326038c706a_best/Brooklyn-Supply-Co.-Brooklyn-Supply-Co-oversized-hoodie-with-logo-in-white.jpg",
+        gender: "male",
         price: 56,
       },
       {
         id: 10,
+        title: "mens",
         name: "Levi’s Type III Sherpa Lined Denim Jacket",
         imageUrl: "https://s7d5.scene7.com/is/image/UrbanOutfitters/47684733_106_b?$medium$&qlt=80&fit=constrain",
+        gender: "male",
         price: 25,
       },
     ],
@@ -379,6 +443,7 @@ SHOP_DATA = [
 SHOP_DATA.each do |item|
   item[:items].each do |product|
     Product.create(
+      title: product[:title],
       name: product[:name],
       imageUrl: product[:imageUrl],
       price_cents: product[:price],

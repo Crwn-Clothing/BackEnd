@@ -15,6 +15,13 @@ class OrdersController < ApplicationController
     render json: @order
   end
 
+  def update
+    @order.update(order_params)
+  end
+
+  def destroy
+    @order.destroy
+  end
   private
 
   def set_orders
