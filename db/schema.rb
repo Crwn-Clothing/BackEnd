@@ -18,12 +18,6 @@ ActiveRecord::Schema.define(version: 2020_01_10_052028) do
   create_table "orders", force: :cascade do |t|
     t.bigint "product_id", null: false
     t.bigint "user_id", null: false
-    t.integer "status"
-    t.integer "token"
-    t.string "charge_id"
-    t.string "error_message"
-    t.string "customer_id"
-    t.integer "payment_gateway"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["product_id"], name: "index_orders_on_product_id"
@@ -34,7 +28,7 @@ ActiveRecord::Schema.define(version: 2020_01_10_052028) do
     t.string "name"
     t.string "imageUrl"
     t.integer "price_cents"
-    t.string "stripe_plan_name"
+    t.string "gender"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

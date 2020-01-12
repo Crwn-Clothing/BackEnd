@@ -2,9 +2,10 @@ class UsersController < ApplicationController
   before_action :set_users, only: [:show, :update, :destroy]
 
   def index
-    users = User.all
-    if users
-      render json: users
+    @users = User.all
+    # byebug
+    if @users
+      render json: @users
     else
       render json: {
         status: 500,
@@ -44,6 +45,6 @@ class UsersController < ApplicationController
   end
 
   def user_params
-    params.permitt(:first_name, :last_name, :email, :username, :password, :address, :state, :zipcode)
+    params.permit(:first_name, :last_name, :email, :username, :password)
   end
 end

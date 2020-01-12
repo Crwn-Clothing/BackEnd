@@ -5,7 +5,6 @@ class CreateProducts < ActiveRecord::Migration[6.0]
       t.string :imageUrl
       t.integer :price_cents
       t.string :gender
-      t.string :stripe_plan_name
 
       t.timestamps
     end
