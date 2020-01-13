@@ -1,5 +1,5 @@
 class OrderSerializer < ActiveModel::Serializer
   attributes :id
-  has_one :product
-  has_one :user
+  belongs_to :product
+  # belongs_to :user
 end

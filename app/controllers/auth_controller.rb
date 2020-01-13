@@ -28,7 +28,6 @@ class AuthController < ApplicationController
       current_user = User.find_by(login_params[:id])
       current_user
     end
-
   end
 
   private
