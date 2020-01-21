@@ -11,6 +11,7 @@ require "json"
 
 User.destroy_all
 Product.destroy_all
+Cart.destroy_all
 Order.destroy_all
 Review.destroy_all
 
@@ -407,18 +408,18 @@ SHOP_DATA = [
       {
         id: 7,
         title: "mens",
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        name: "Hose Bee Lion",
+        imageUrl: "https://cdn.shopify.com/s/files/1/0866/4890/products/hoseblion-mock_1024x1024.jpg?v=1560583040",
         gender: "male",
-        price: 25,
+        price: 32,
       },
       {
         id: 8,
         title: "mens",
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        name: "Chandler (checker)",
+        imageUrl: "https://cdn.shopify.com/s/files/1/0866/4890/products/chandler-checker_1024x1024.jpg?v=1555298229",
         gender: "male",
-        price: 25,
+        price: 70,
       },
       {
         id: 9,

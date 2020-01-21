@@ -1,16 +1,33 @@
 class ChargesController < ApplicationController
   def create
+    #
     Stripe.api_key = ENV["STRIPE_SECRET_KEY"]
-    order = Order.find(params[:id])
-    amount = order.product.sum(:price) * 100
+
+    # params[:orderId].each do |order|
+    #   byebug
+    # end
+
+    order = Order.find(params[:orderId])
+
+    amount = order.product.sum(:price_cents) * 100
+
     charge = Stripe::Charge.create(
       :amount => amount,
-      :description => order.name,
+      :description => "Crwn Clothing",
       :currency => "usd",
       :source => params[:token],
     )
-  rescue Stripe::CardError => e
-    flash[:errors] = e.message
-    redirect_to charges_path
+    begin
+      puts charge
+    rescue Stripe::CardError => e
+      flash[:errors] = e.message
+      redirect_to charges_path
+    end
+  end
+
+  private
+
+  def get_key
+    "sk_test_MCMCkf9sD2ui6wRETL9fzaDq00afWiekMb"
   end
 end

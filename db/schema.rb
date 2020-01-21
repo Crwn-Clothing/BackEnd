@@ -10,18 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_01_10_052028) do
+ActiveRecord::Schema.define(version: 2020_01_20_090243) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "orders", force: :cascade do |t|
-    t.bigint "product_id", null: false
+  create_table "carts", force: :cascade do |t|
+    t.float "price"
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_carts_on_user_id"
+  end
+
+  create_table "orders", force: :cascade do |t|
+    t.bigint "cart_id", null: false
+    t.bigint "product_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["cart_id"], name: "index_orders_on_cart_id"
     t.index ["product_id"], name: "index_orders_on_product_id"
-    t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -54,8 +62,9 @@ ActiveRecord::Schema.define(version: 2020_01_10_052028) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "carts", "users"
+  add_foreign_key "orders", "carts"
   add_foreign_key "orders", "products"
-  add_foreign_key "orders", "users"
   add_foreign_key "reviews", "products"
   add_foreign_key "reviews", "users"
 end

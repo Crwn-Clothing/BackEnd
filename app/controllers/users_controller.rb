@@ -1,9 +1,13 @@
 class UsersController < ApplicationController
   before_action :set_users, only: [:show, :update, :destroy]
 
+  def hmac_secret
+    "secret_tag"
+  end
+
   def index
     @users = User.all
-    # byebug
+    
     if @users
       render json: @users
     else
@@ -14,7 +18,7 @@ class UsersController < ApplicationController
     end
   end
 
-  def show 
+  def show
     render json: @user
   end
 
@@ -22,7 +26,7 @@ class UsersController < ApplicationController
     @user = User.create(user_params)
     if @user.valid?
       user = @user
-      token = JWT.encode({ user_id: user.id }, secret, "HS256")
+      token = JWT.encode({ user_id: user.id }, hmac_secret, "HS256")
       render json: { user: user, token: token }
     else
       render json: { errors: user.errors.full_messages }

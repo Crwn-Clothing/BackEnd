@@ -3,6 +3,7 @@ class AuthController < ApplicationController
     "secret_tag"
   end
 
+  # create action
   def login
     user = User.find_by(username: login_params[:username])
     if user && user.authenticate(login_params[:password])
@@ -13,12 +14,11 @@ class AuthController < ApplicationController
     end
   end
 
+  # login action
   def persist
     if request.headers["Authorization"]
       encoded_token = request.headers["Authorization"].split(" ")[1]
-
       token = JWT.decode(encoded_token, hmac_secret)
-      byebug
       user_id = token[0]["user_id"]
       user = User.find(user_id)
       render json: user
