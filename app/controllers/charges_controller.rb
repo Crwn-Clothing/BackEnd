@@ -1,7 +1,7 @@
 class ChargesController < ApplicationController
   def create
     #
-    Stripe.api_key = ENV["STRIPE_SECRET_KEY"]
+    Stripe.api_key = ENV["SECRET_KEY"]
 
     # params[:orderId].each do |order|
     #   byebug
