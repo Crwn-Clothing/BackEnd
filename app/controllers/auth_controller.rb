@@ -6,6 +6,7 @@ class AuthController < ApplicationController
   # create action
   def login
     user = User.find_by(username: login_params[:username])
+    # byebug
     if user && user.authenticate(login_params[:password])
       token = JWT.encode({ user_id: user.id }, hmac_secret, "HS256")
       render json: { user: user, token: token }
