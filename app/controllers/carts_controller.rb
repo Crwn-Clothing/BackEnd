@@ -1,4 +1,3 @@
-
 class CartsController < ApplicationController
   before_action :set_carts, only: [:show, :update, :destroy]
 
@@ -19,7 +18,7 @@ class CartsController < ApplicationController
       order_array << @order
     end
 
-    # byebug
+    byebug
 
     Stripe.api_key = ENV["STRIPE_SECRET_KEY"]
 
