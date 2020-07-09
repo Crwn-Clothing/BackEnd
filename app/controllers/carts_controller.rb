@@ -18,8 +18,6 @@ class CartsController < ApplicationController
       order_array << @order
     end
 
-    byebug
-
     Stripe.api_key = ENV["STRIPE_SECRET_KEY"]
 
     charge = Stripe::Charge.create(
@@ -35,6 +33,7 @@ class CartsController < ApplicationController
       flash[:errors] = e.message
       render json: { error: "Didn't work" }
     end
+
     render json: { cart: @cart.as_json(include: [:products]), orders: order_array }
   end
 
