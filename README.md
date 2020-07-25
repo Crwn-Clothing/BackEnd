@@ -10,7 +10,7 @@ I built this application using React/Redux for the frontend and Ruby on Rails fo
 
 
 
-### Webstite Link: [Crwn Clothing](https://crwn-clothings-frontend.herokuapp.com/)
+### Live: [Crwn Clothing](https://crwn-clothings-frontend.herokuapp.com/)
 
 
 
@@ -27,5 +27,5 @@ I built this application using React/Redux for the frontend and Ruby on Rails fo
 
 
 
-### Webstite Link: [Crwn Clothing Demo](https://www.youtube.com/watch?v=qpgjLcCHg_w&feature=youtu.be)
+### Demo: [Crwn Clothing Demo](https://www.youtube.com/watch?v=qpgjLcCHg_w&feature=youtu.be)
 
