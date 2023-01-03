@@ -52,7 +52,7 @@ gem "bcrypt", "~> 3.1"
 
 gem "rest-client", "~> 2.1"
 
-gem "httparty", "~> 0.17.3"
+gem "httparty", "~> 0.21.0"
 
 
 
